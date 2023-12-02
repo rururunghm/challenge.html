@@ -6,20 +6,26 @@
 
 header {
   width: 100%;
-  padding: 16px 0;
   margin: 0 auto;
+  background-color: #ec715f;
 }
 
-
+.img {
+  width: 100px;
+  height: 70px;
+  text-align: 
+}
 
 .nav-list {
+  width: 1024px;
+  height: 70px;
   text-align: center;
-  padding: 10px 0;
-  margin: 0 auto;
 }
 
 .nav-list-item {
   list-style: none;
   display: inline-block;
   margin: 0 30px;
+  font-size: 16px;
+  color: #fafafa;
 }
