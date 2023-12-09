@@ -132,8 +132,7 @@ header {
 
 .feature {
   width: 100%;
-  height: 1000px;
-  background-color: #eceff1;
+  background-color: white;
 }
 
 .feature-top{
@@ -163,7 +162,7 @@ header {
   color: #000000; 
 }
 
-.portforio-content{
+.feature-content{
   width: 920px;
   display: flex;
   flex-wrap: wrap;
@@ -171,7 +170,7 @@ header {
   margin-bottom: 90px;
 }
 
-.portforio-box{
+.feature-box{
   width: 300px;
   height: auto;
   font-size: 16px
@@ -183,4 +182,53 @@ header {
   flex-wrap: wrap;
   font-size: 16px;
   color: #000000;
+}
+
+.feature-box:nth-child(2) {
+  margin: 0 10px 0 10px;
+}
+
+.profile{
+  width: 1024px;
+  text-align: center;
+  font-size: 32px;
+  background-color: #eceff1;
+}
+
+.profile-top{
+  padding: 90px 0 8px 0 ;
+}
+
+.profile-first{
+  text-align: center;
+  font-size: 16px;
+  color: #000000;
+}
+
+.profile-second{
+  text-align: center;
+  font-size: 16px;
+  color: #000000; 
+}
+
+.profile-third{
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 16px;
+  color: #000000; 
+}
+
+.profole-item {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  
+}
+
+.profile-image {
+  height: 180px;
+}
+
+.profile-text {
+  padding: 25px 0 0 30px;
+  font-size: 16px;
 }
