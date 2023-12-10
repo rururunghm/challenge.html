@@ -201,6 +201,8 @@ header {
 }
 
 .profile{
+  justify-content: center;
+  align-items: center;
   width: 100%;
   background-color: #eceff1;
 }
@@ -232,10 +234,20 @@ header {
   color: #000000; 
 }
 
-.profole-item {
-  padding-bottom: 20px;
-  margin-bottom: 20px;
+.profile-box1{
   text-align: center;
+  width: 512px;
+}
+
+.profile-box2{
+  width: 512px;
+}
+
+.profile-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1024px;
 }
 
 .profile-image {
@@ -246,4 +258,10 @@ header {
 .profile-text {
   color: #000000;
   font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.profile-name{
+  margin-bottom:5px;
+  font-size: 20px;
 }
