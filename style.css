@@ -347,8 +347,12 @@ header {
     width:90%;
   }
   
-  .portforio-box{
-    
+  .portforio-content{
+    display: block; 
+  }
+  
+  .feature-content {
+    display: block;
   }
   
 }
